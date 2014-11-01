@@ -15,7 +15,7 @@ echo "ro.build.type=$TARGET_BUILD_TYPE"
 echo "ro.build.user=$USER"
 echo "ro.build.host=`hostname`"
 echo "ro.build.tags=$BUILD_VERSION_TAGS"
-echo "ro.product.model=$PRODUCT_MODEL"
+echo "ro.product.model=SHV-E210K"
 echo "ro.product.brand=$PRODUCT_BRAND"
 echo "ro.product.name=$PRODUCT_NAME"
 echo "ro.product.device=$TARGET_DEVICE"
@@ -26,10 +26,10 @@ if [ -n "$TARGET_CPU_ABI2" ] ; then
 fi
 echo "ro.product.manufacturer=$PRODUCT_MANUFACTURER"
 if [ -n "$PRODUCT_DEFAULT_LANGUAGE" ] ; then
-  echo "ro.product.locale.language=$PRODUCT_DEFAULT_LANGUAGE"
+  echo "ro.product.locale.language=ko"
 fi
 if [ -n "$PRODUCT_DEFAULT_REGION" ] ; then
-  echo "ro.product.locale.region=$PRODUCT_DEFAULT_REGION"
+  echo "ro.product.locale.region=KR"
 fi
 echo "ro.wifi.channels=$PRODUCT_DEFAULT_WIFI_CHANNELS"
 echo "ro.board.platform=$TARGET_BOARD_PLATFORM"

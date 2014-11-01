@@ -206,7 +206,7 @@ PRODUCT_PACKAGES += \
 
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.android.dateformat=MM-dd-yyyy \
+    ro.com.android.dateformat=yyyy-MM-dd \
     ro.config.ringtone=Ring_Synth_04.ogg \
     ro.config.notification_sound=pixiedust.ogg
 
